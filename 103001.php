@@ -1,4 +1,10 @@
+<h1>
+<br>
+name:jack</h1>
+<p>
+
 <?php
+
 $scores = array(22, 16, 30, 24);
 $total = 0;
 
@@ -6,4 +12,6 @@ foreach ($scores as $score){
     echo "$score";
     $total += $score;
 }
-echo"<br> total:".total;
+
+echo"<br> total:".$total."<br>";
+print_r(value:$scores);
